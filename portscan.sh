@@ -1,7 +1,5 @@
 #!/bin/bash
 
-nmap -o result #!/bin/bash
-
 if [ $# -ne 1 ]; then
   echo "Usage: $0 <IP>"
   exit 1
